@@ -1,0 +1,44 @@
+.settingsContainer {
+  flex: 20%;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+.settingsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+}
+
+.combContainer {
+  position: relative;
+  top: 0px;
+  height: 70%;
+  width: 100%;
+}
+
+.counterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20%;
+  width: 100%;
+}
+
+.counterTitle {
+  justify-self: left;
+  padding-left: 20%;
+  font-size: 22px;
+  font-weight: 500;
+  width: 100%;
+}

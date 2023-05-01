@@ -1,0 +1,10 @@
+.colorPickerPageContainer {
+  top: 0;
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #efeae6;
+  color: #222221;
+}

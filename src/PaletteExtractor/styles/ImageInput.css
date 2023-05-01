@@ -1,0 +1,51 @@
+.imageInputWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 80%;
+}
+.imageInputWrapper label.uploader {
+  border: solid 2px #2e4f4f;
+}
+.imageInputWrapper label.uploader svg {
+  filter: invert(27%) sepia(22%) saturate(686%) hue-rotate(278deg)
+    brightness(10%) contrast(91%);
+}
+
+.imgWrapper {
+  flex: 90%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.imgWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: 50% 50%;
+}
+
+.inputWrapper {
+  flex: 10%;
+  position: relative;
+}
+
+.fileUpload {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+input[type='file'] {
+  visibility: hidden;
+}
+
+.icon {
+  padding-right: 1em;
+}

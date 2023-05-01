@@ -1,0 +1,9 @@
+{
+  "short_name": "SchemesPalletes",
+  "name": "Color Wheel Schemes",
+
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

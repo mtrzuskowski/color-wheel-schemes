@@ -1,0 +1,17 @@
+.counterWrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-auto-rows: 40px;
+  grid-auto-flow: dense;
+  width: 80%;
+  max-width: 350px;
+  background: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.colorQuantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
