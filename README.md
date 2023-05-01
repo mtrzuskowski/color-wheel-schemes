@@ -16,7 +16,6 @@ This is a web appliaction written in ReactJS that enables you to create color pa
 ## General Information
   It is a project that I undertook, while trying to deepen my knowledge of color theory and UI design. 
   It can be used by artists or developers to create harmonised, beatiful color compositions to use in their projects.
-- Provide general information about your project here.
 
 
 ## Technologies Used
@@ -26,7 +25,6 @@ This is a web appliaction written in ReactJS that enables you to create color pa
 ## Features
 - Creating palettes using color wheel and color schemes
 - Generating palettes based on an image uploaded by the user
-- Awesome feature 3
 
 
 ## Screenshots
